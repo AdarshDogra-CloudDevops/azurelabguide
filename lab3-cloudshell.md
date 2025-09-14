@@ -1,7 +1,7 @@
 # Lab 3 – Using Cloud Shell to Prepare Docker Build Files
 
 1. In the Azure Portal, click the **Cloud Shell** icon.  
-![](./azurelab/cr6-Copy1.png)
+![](./azurelab/csd.5.png)
 2. In the **Welcome to Azure Cloud Shell** window, choose **Bash**.  
 3. In the Getting Started window:  
    - Select **Mount Storage Account**.  
