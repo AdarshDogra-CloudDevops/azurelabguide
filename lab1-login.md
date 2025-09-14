@@ -18,9 +18,9 @@ Take the credentials from this file and use them to log into the Azure account.
 
 - On the **Sign into Microsoft Azure** screen:  
   - Enter the provided **Email/Username** → Click **Next**.
-![](./azurelab/gs6.png) 
+  ![](./azurelab/gs6.png) 
   - Enter the **Password** → Click **Sign in**.
-![](./azurelab/gs7.png) 
+  ![](./azurelab/gs7.png) 
 
 **Note:**  
 - If you see a popup *Action Required* for 2FA setup, click **Ask Later**.
