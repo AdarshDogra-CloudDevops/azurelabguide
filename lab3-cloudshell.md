@@ -33,12 +33,13 @@
    cat <<EOF > Dockerfile
    FROM httpd:2.4
    COPY ./index.html /usr/local/apache2/htdocs/index.html
-   EOF
+   
 
 
 
  8.Create an index.html file:
 
+```bash
 cat <<EOF > index.html
 <html>
   <head><title>Hello World</title></head>
