@@ -26,7 +26,7 @@
    mkdir apache-demo
    cd apache-demo
    
-7.Create a Dockerfile:
+ 7.Create a Dockerfile:
 
 ```bash
 cat <<EOF > Dockerfile
@@ -34,7 +34,8 @@ FROM httpd:2.4
 COPY ./index.html /usr/local/apache2/htdocs/index.html
 EOF
 
-8.Create an index.html file:
+
+ 8.Create an index.html file:
 
 ```bash
 cat <<EOF > index.html
@@ -44,7 +45,8 @@ cat <<EOF > index.html
 </html>
 EOF
 
-9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
+
+ 9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
 
 ```bash
 az acr build --registry myacr1234 --image myapache:v1 .
