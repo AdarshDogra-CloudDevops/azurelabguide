@@ -25,6 +25,7 @@
    ```bash
    mkdir apache-demo
    cd apache-demo
+
    
  7.Create a Dockerfile:
 
@@ -33,6 +34,7 @@
    FROM httpd:2.4
    COPY ./index.html /usr/local/apache2/htdocs/index.html
    EOF
+
 
 
  8.Create an index.html file:
@@ -44,6 +46,7 @@
      <body><h1>Hello World from Azure Container!</h1></body>
    </html>
    EOF
+
 
 
  9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
