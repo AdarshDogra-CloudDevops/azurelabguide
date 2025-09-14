@@ -39,13 +39,13 @@
 
  8.Create an index.html file:
 
-   ```bash
-   cat <<EOF > index.html
-   <html>
-     <head><title>Hello World</title></head>
-     <body><h1>Hello World from Azure Container!</h1></body>
-   </html>
-   EOF
+cat <<EOF > index.html
+<html>
+  <head><title>Hello World</title></head>
+  <body><h1>Hello World from Azure Container!</h1></body>
+</html>
+EOF
+
 
 
 
