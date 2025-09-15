@@ -2,12 +2,11 @@
 **Lab duration:** 1 Hour 
 
 ## Overview  
-This lab guides you through building, storing, and deploying a simple Apache web server using Azure services. You will log in to the Azure Portal, create an Azure Container Registry (ACR), build and push a custom Docker image using Cloud Shell, and finally deploy and verify your containerized application on Azure Container Instances (ACI).  
+This lab guides you through building, storing, and deploying a simple Apache web server using Azure services. You will create an Azure Container Registry (ACR), build and push a custom Docker image using Cloud Shell, and finally deploy and verify your containerized application on Azure Container Instances (ACI).  
 
 Azure Container Instances (ACI) offers a quick and serverless way to run containers in the cloud without managing virtual machines or orchestrators. With ACI, you can focus on building and running your applications while Azure handles the infrastructure.  
 
-## Key Learnings  
-- Navigating and logging into the Azure Portal  
+## Key Learnings    
 - Creating and configuring Azure Container Registry (ACR)  
 - Using Azure Cloud Shell for Docker image builds  
 - Building and pushing custom container images to ACR  
