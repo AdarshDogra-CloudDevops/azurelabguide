@@ -65,6 +65,7 @@ EOF
 ```bash
 az acr build --registry myacr1234 --image myapache:v1 .
 ```
+![](./azurelab/csd7.png)
 
 After this, your image will be successfully built and stored in ACR.
 
