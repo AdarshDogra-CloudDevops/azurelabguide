@@ -29,11 +29,12 @@
    
 7.Create a Dockerfile:
 
-   ```bash
-   cat <<EOF > Dockerfile
-   FROM httpd:2.4
-   COPY ./index.html /usr/local/apache2/htdocs/index.html
-   ```
+```bash
+cat <<EOF > Dockerfile
+FROM httpd:2.4
+COPY ./index.html /usr/local/apache2/htdocs/index.html
+EOF
+```
 
 
 8.Create an index.html file:
@@ -50,9 +51,9 @@ EOF
 
 9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
 
-   ```bash
-   az acr build --registry myacr1234 --image myapache:v1 .
-   ```
+```bash
+az acr build --registry myacr1234 --image myapache:v1 .
+```
 
 After this, your image will be successfully built and stored in ACR.
 
