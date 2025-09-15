@@ -1,3 +1,5 @@
+# Getting Started with a Hands-On Lab
+
 # Logging into Azure Account
 
 Follow the steps below to log in to your Azure account:
