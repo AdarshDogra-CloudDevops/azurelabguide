@@ -25,9 +25,9 @@
    ```bash
    mkdir apache-demo
    cd apache-demo
-
+   ```
    
- 7.Create a Dockerfile:
+7.Create a Dockerfile:
 
    ```bash
    cat <<EOF > Dockerfile
@@ -45,15 +45,14 @@ cat <<EOF > index.html
   <body><h1>Hello World from Azure Container!</h1></body>
 </html>
 EOF
+```
 
 
-
-
- 9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
+9.Build and push the image to ACR (this automatically uses ACR credentials internally – no need to enter them manually):
 
    ```bash
    az acr build --registry myacr1234 --image myapache:v1 .
-
+   ```
 
 After this, your image will be successfully built and stored in ACR.
 
