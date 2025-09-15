@@ -1,4 +1,5 @@
 # Exercise 3 – Deploying the Container Instance
+**In this exercise, you will deploy your custom container image from ACR to an Azure Container Instance (ACI). You will configure networking and validate that the container is running successfully.**
 
 1. In the Azure Portal, search for **Container Instances** → Click **Create**.  
    ![](./azurelab/ci1.png)  
