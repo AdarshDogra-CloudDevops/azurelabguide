@@ -1,5 +1,5 @@
 # Exercise 1 – Creating an Azure Container Registry (ACR)
-In this exercise, you will create an Azure Container Registry (ACR). This private registry will allow you to securely build, store, and manage container images that you will later deploy in Azure Container Instances.
+**In this exercise, you will create an Azure Container Registry (ACR). This private registry will allow you to securely build, store, and manage container images that you will later deploy in Azure Container Instances.**
 
 1. In the Azure Portal, search for **Container Registries** → Click **Create**.  
    ![](./azurelab/cr1.png)
