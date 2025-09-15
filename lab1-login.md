@@ -1,4 +1,4 @@
-# Lab 1 – Logging into Azure Account
+# Exercise 1 – Logging into Azure Account
 
 Follow the steps below to log in to your Azure account:
 
