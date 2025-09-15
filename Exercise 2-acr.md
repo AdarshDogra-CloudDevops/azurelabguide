@@ -1,4 +1,4 @@
-# Lab 2 – Creating an Azure Container Registry (ACR)
+# Exercise 2 – Creating an Azure Container Registry (ACR)
 
 1. In the Azure Portal, search for **Container Registries** → Click **Create**.  
    ![](./azurelab/cr1.png)
