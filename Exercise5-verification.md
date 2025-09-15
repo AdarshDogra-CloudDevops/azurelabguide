@@ -1,4 +1,4 @@
-# Exercise 5- Verifying the Deployment and Accessing Apache Server
+# Exercise 5 - Verifying the Deployment and Accessing Apache Server
 
 1. Navigate to your **Container Instance** → Click **Go to Resource**.
    
