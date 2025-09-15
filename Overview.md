@@ -15,8 +15,7 @@ Azure Container Instances (ACI) offers a quick and serverless way to run contain
 - Verifying containerized applications via DNS-based access  
 
 ## Hands-on Lab Exercises  
-- **Exercise 1:** Logging into the Azure Account  
-- **Exercise 2:** Creating an Azure Container Registry (ACR)  
-- **Exercise 3:** Preparing Docker build files in Azure Cloud Shell  
-- **Exercise 4:** Deploying the container instance from ACR  
-- **Exercise 5:** Verifying the Apache server deployment  
+- **Exercise 1:** Creating an Azure Container Registry (ACR)  
+- **Exercise 2:** Preparing Docker build files in Azure Cloud Shell   
+- **Exercise 3:** Deploying the container instance from ACR
+- **Exercise 4:**  Verifying the Apache server deployment
