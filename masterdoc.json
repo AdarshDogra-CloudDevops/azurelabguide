@@ -5,27 +5,27 @@
     "BaseURL": "https://github.com/AdarshDogra-CloudDevops/azurelabguide",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Overview.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/gettingstarted.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise1-login.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Overview.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise2-acr.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise1-acr.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise3-cloudshell.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise2-cloudshell.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise4-container-instance.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise3-container-instance.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise5-verification.md",
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/azurelabguide/main/Exercise4-verification.md",
         "Order": 6
       }
     ]
