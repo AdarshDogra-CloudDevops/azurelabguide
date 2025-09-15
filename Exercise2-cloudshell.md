@@ -1,4 +1,5 @@
 # Exercise 2 – Using Cloud Shell to Prepare Docker Build Files
+**In this exercise, you will use Azure Cloud Shell to create Docker build files. You will write a Dockerfile, create a sample HTML file, and build a container image that will be stored in your ACR.**
 
 1. In the Azure Portal, click the **Cloud Shell** icon.
    
