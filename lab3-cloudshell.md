@@ -15,13 +15,16 @@
    - Wait 2–3 minutes for deployment to complete.  
      ![](./azurelab/csd4.png)  
 
-4. Once the deployment finishes, the Cloud Shell will be ready.  
+4. Once the deployment finishes, the Cloud Shell will be ready.
+    
    ![](./azurelab/csd5.png)  
 
-5. Maximize the Cloud Shell window using the maximize button in the Cloud Shell bar.  
+6. Maximize the Cloud Shell window using the maximize button in the Cloud Shell bar.
+     
    ![](./azurelab/csd6.png)  
 
-6. Create a working directory:  
+7. Create a working directory:
+ 
 ```bash
 mkdir apache-demo
 cd apache-demo
