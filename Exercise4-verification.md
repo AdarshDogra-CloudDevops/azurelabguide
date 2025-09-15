@@ -10,7 +10,7 @@
    ![](./azurelab/verify.5.png)  
 
 5. Open the FQDN in your browser to access the Apache server.
-   http://<Your FQDN>
+   http://<YourFQDN>
    
    ![](./azurelab/verify1.png)
 
