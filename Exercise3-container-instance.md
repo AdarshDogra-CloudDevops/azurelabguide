@@ -1,4 +1,4 @@
-# Exercise 4 – Deploying the Container Instance
+# Exercise 3 – Deploying the Container Instance
 
 1. In the Azure Portal, search for **Container Instances** → Click **Create**.  
    ![](./azurelab/ci1.png)  
