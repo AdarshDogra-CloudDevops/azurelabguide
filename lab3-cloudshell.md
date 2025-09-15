@@ -37,7 +37,7 @@
 
 
 
- 8.Create an index.html file:
+8.Create an index.html file:
 
 ```bash
 cat <<EOF > index.html
