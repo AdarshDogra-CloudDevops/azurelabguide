@@ -22,10 +22,10 @@
    ![](./azurelab/csd6.png)  
 
 6. Create a working directory:  
-   ```bash
-   mkdir apache-demo
-   cd apache-demo
-   ```
+```bash
+mkdir apache-demo
+cd apache-demo
+```
    
 7.Create a Dockerfile:
 
