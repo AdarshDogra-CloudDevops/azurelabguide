@@ -1,4 +1,5 @@
 # Exercise 4 - Verifying the Deployment and Accessing Apache Server
+**In this exercise, you will verify that your containerized Apache server is accessible via its public FQDN. You will test the deployment by accessing the "Hello World" page served from the container.**
 
 1. Navigate to your **Container Instance** → Click **Go to Resource**.
    
