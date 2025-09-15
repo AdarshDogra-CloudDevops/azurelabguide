@@ -1,0 +1,29 @@
+[
+  {
+    "Name": "Deploying Apache on Azure Container Instances",
+    "Language": "English",
+    "BaseURL": "https://github.com/AdarshDogra-CloudDevops",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/main/Exercise1-login.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/main/Exercise2-acr.md",
+        "Order": 2
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/main/Exercise3-cloudshell.md",
+        "Order": 3
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/main/Exercise4-container-instance.md",
+        "Order": 4
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/AdarshDogra-CloudDevops/main/Exercise5-verification.md",
+        "Order": 5
+      }
+    ]
+  }
+]
