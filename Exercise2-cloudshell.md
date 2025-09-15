@@ -1,4 +1,4 @@
-# Exercise 3 – Using Cloud Shell to Prepare Docker Build Files
+# Exercise 2 – Using Cloud Shell to Prepare Docker Build Files
 
 1. In the Azure Portal, click the **Cloud Shell** icon.
    
