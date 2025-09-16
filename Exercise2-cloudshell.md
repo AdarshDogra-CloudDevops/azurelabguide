@@ -67,4 +67,15 @@ docker build -t myapache:v1 .
 docker images
 ```
 
+### 8. Run & Test Locally
+
+```powershell
+docker run -d -p 8080:80 myapache:v1
+```
+
+Now open 👉 http://localhost:8080
+ in your browser.
+You should see the Hello World page 🎉.
+
+
 
