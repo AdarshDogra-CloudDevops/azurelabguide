@@ -53,7 +53,7 @@ COPY ./index.html /usr/local/apache2/htdocs/index.html
 ### 6. Verify Files
 
 Expected files:
-**Dockerfile**
+**Dockerfile** and 
 **index.html**
 
 
