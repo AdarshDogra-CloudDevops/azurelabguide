@@ -11,7 +11,7 @@
 
 5. Open the FQDN in your browser to access the Apache server.
    
-   ![](./azurelab/verify1.png)
+   ![](./azurelab/d7.png)
 
     ✅ Now your Apache server is accessible.  
    You should see the response:  
