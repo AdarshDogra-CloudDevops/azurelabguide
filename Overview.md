@@ -1,20 +1,18 @@
-# Build and Deploy Apache Server using Azure Container Instances  
-**Lab duration:** 1 Hour 
+# Build and Deploy Containers using Azure Container Instance
 
-## Overview  
-This lab guides you through building, storing, and deploying a simple Apache web server using Azure services. You will create an Azure Container Registry (ACR), build and push a custom Docker image using Cloud Shell, and finally deploy and verify your containerized application on Azure Container Instances (ACI).  
+**Lab Duration:** 1 Hour  
 
-Azure Container Instances (ACI) offers a quick and serverless way to run containers in the cloud without managing virtual machines or orchestrators. With ACI, you can focus on building and running your applications while Azure handles the infrastructure.  
+## Overview
+Azure Container Instances (ACI) is a service provided by Microsoft Azure that allows users to quickly run containers directly on the Azure cloud without having to manage virtual machines or additional services like container orchestrators. It is a solution aimed at simplifying container operations by providing a serverless computing environment where you only pay for the compute resources that the container uses while it is running.
 
-## Key Learnings    
-- Creating and configuring Azure Container Registry (ACR)  
-- Using Azure Cloud Shell for Docker image builds  
-- Building and pushing custom container images to ACR  
-- Deploying applications using Azure Container Instances (ACI)  
-- Verifying containerized applications via DNS-based access  
+## Key Learnings
+- Understanding Docker and Containerization  
+- Building Docker images using **Docker Desktop** and pushing them to Azure Container Registry (ACR)  
+- Deploying containerized applications using Azure Container Instances  
 
-## Hands-on Lab Exercises  
-- **Exercise 1:** Creating an Azure Container Registry (ACR)  
-- **Exercise 2:** Preparing Docker build files in Azure Cloud Shell   
-- **Exercise 3:** Deploying the container instance from ACR
-- **Exercise 4:**  Verifying the Apache server deployment
+## Hands-on Lab
+
+- **Exercise 1:** Create an Azure Container Registry (ACR) 
+- **Exercise 2:** Build and push a Docker image to ACR using **Docker Desktop**  
+- **Exercise 3:** Deploy the containerized application using Azure Container Instances (ACI)  
+- **Exercise 4:** Verify the deployment and access the Apache server  
