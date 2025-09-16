@@ -21,7 +21,7 @@ Open **Windows PowerShell** and run:
 docker --version
 ```
 Expected output example:
-Docker version 28.4.0, build d8eb465
+ **Docker version 28.4.0, build d8eb465**
 
 ### 3. Create a Project Directory
 
