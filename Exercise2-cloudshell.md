@@ -5,22 +5,32 @@ In this exercise, you will build a Docker image locally using **Docker Desktop**
 ---
 
 ### 1. Start Docker Desktop
-- Click the **Docker Desktop** shortcut to open it.  
-  ![](./azurelab/s1.png)  
-- Accept the **Service Agreement** prompt.  
-  ![](./azurelab/d1.png)  
-- Click **Skip** on the sign-in prompt.  
-  ![](./azurelab/d2.png)  
-- Wait 5–7 minutes for Docker to fully start.  
-  ![](./azurelab/d3.png)  
+- Click the **Docker Desktop** shortcut to open it.
+  
+  ![](./azurelab/s1.png)
+  
+- Accept the **Service Agreement** prompt.
+  
+  ![](./azurelab/d1.png)
+  
+- Click **Skip** on the sign-in prompt.
+    
+  ![](./azurelab/d2.png)
+  
+- Wait 5–7 minutes for Docker to fully start.
+  
+  ![](./azurelab/d3.png)
+  
 - If a **WSL prompt** appears, simply close it.  
-- Once Docker is running, you should see the whale 🐳 icon in the system tray and the Docker Desktop app:  
+- Once Docker is running, you should see the whale 🐳 icon in the system tray and the Docker Desktop app:
+  
   ![](./azurelab/d4.png)  
 
 ---
 
 ### 2. Verify Docker Installation
 Open **Windows PowerShell**.  
+
 ![](./azurelab/d5.png)  
 
 Run:
@@ -97,11 +107,13 @@ Run the container:
 docker run -d -p 8080:80 myapache:v1
 ```
 
-You should see the running container inside Docker Desktop:  
+You should see the running container inside Docker Desktop: 
+
 ![](./azurelab/d8.png)  
 
 Now open 👉 **http://localhost:8080** in your browser.  
 You should see the Hello World page 🎉  
+
 ![](./azurelab/d6.png)  
 
 ⚡ Note: This test is running **locally** on your system. Next, we’ll push the image to Azure.
