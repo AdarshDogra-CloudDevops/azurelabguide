@@ -8,7 +8,7 @@ In this exercise, you will build a Docker image locally using **Docker Desktop**
 - Click the **Docker Desktop** shortcut to open it.  
 - Accept the **service agreement** prompt.  
 - Click **Skip** on the sign-in prompt.  
-- Wait 3–4 minutes for Docker to start.  
+- Wait 7-8 minutes for Docker to start.  
 - If a **WSL prompt** appears, close it.  
 - Once Docker is running, you should see the whale 🐳 icon in the system tray.  
 
