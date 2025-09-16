@@ -40,9 +40,9 @@ docker --version
 ```
 
 Example output:  
-```
+
 Docker version 28.4.0, build d8eb465
-```
+
 
 ---
 
