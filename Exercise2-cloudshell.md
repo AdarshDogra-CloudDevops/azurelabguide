@@ -30,3 +30,30 @@ mkdir C:\DockerProjects\apache-demo
 cd C:\DockerProjects\apache-demo
 ```
 
+### 4. Create a Dockerfile
+
+```powershell
+@"
+FROM httpd:2.4
+COPY ./index.html /usr/local/apache2/htdocs/index.html
+"@ | Out-File -FilePath Dockerfile -Encoding utf8 -Force
+```
+
+### 5. Create an index.html
+
+```powershell
+@"
+<html>
+  <head><title>Hello World</title></head>
+  <body><h1>Hello World from Container!</h1></body>
+</html>
+"@ | Out-File -FilePath index.html -Encoding utf8 -Force
+```
+
+### 6. Verify Files
+
+Expected files:
+**Dockerfile**
+**index.html**
+
+
