@@ -56,4 +56,15 @@ Expected files:
 **Dockerfile** and 
 **index.html**
 
+### 7. Build the Docker Image
+
+```powershell
+docker build -t myapache:v1 .
+```
+
+**Check that the image was created:**
+```powershell
+docker images
+```
+
 
