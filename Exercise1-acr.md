@@ -32,5 +32,5 @@
    - **Username**  
    - **Password1** and **Password2**  
 
-   > ⚡ Note: You do not need to enter these manually during the lab.  
+   > ⚡ Note: You  need to enter these manually during the lab while pushing the image  that you will create locally in next step to ACR.
    Azure services (like Container Instances or Cloud Shell builds) will use these credentials internally to pull images from the registry.
