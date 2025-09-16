@@ -112,6 +112,7 @@ You should see the running container inside Docker Desktop:
 ![](./azurelab/d8.png)  
 
 Now open 👉 **http://localhost:8080** in your browser.  
+
 You should see the Hello World page 🎉  
 
 ![](./azurelab/d6.png)  
@@ -127,12 +128,14 @@ You should see the Hello World page 🎉
    ```
    Enter the **Username** and **Password** from the ACR **Access Keys** (enabled earlier).
 
-2. **Tag the image for ACR**:
+   ![](./azurelab/akey.png)  
+
+3. **Tag the image for ACR**:
    ```powershell
    docker tag myapache:v1 myacr1234.azurecr.io/myapache:v1
    ```
 
-3. **Push the image to ACR**:
+4. **Push the image to ACR**:
    ```powershell
    docker push myacr1234.azurecr.io/myapache:v1
    ```
