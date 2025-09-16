@@ -117,7 +117,9 @@ You should see the Hello World page 🎉
 
 ![](./azurelab/d6.png)  
 
+
 ⚡ Note: This test is running **locally** on your system. Next, we’ll push the image to Azure.
+
 
 ---
 
