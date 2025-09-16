@@ -5,17 +5,23 @@ In this exercise, you will build a Docker image locally using **Docker Desktop**
 ---
 
 ### 1. Start Docker Desktop
-- Click the **Docker Desktop** shortcut to open it.  
-- Accept the **service agreement** prompt.  
-- Click **Skip** on the sign-in prompt.  
-- Wait 7-8 minutes for Docker to start.  
+- Click the **Docker Desktop** shortcut to open it.
+  ![](./azurelab/s1.png)  
+- Accept the **service agreement** prompt.
+   ![](./azurelab/d1.png)  
+- Click **Skip** on the sign-in prompt.
+   ![](./azurelab/d2.png)  
+- Wait 7-8 minutes for Docker to start.
+  ![](./azurelab/d3.png)  
 - If a **WSL prompt** appears, close it.  
-- Once Docker is running, you should see the whale 🐳 icon in the system tray.  
+- Once Docker is running, you should see the whale 🐳 icon in the system tray and also in docker app as:
+  ![](./azurelab/d4.png)  
 
 ---
 
 ### 2. Verify Docker Installation
-Open **Windows PowerShell** and run:
+Open **Windows PowerShell** 
+![](./azurelab/d5.png)  
 
 ```powershell
 docker --version
@@ -72,10 +78,16 @@ docker images
 ```powershell
 docker run -d -p 8080:80 myapache:v1
 ```
+You can also see the container running is your deokcer desktop app.
+
+![](./azurelab/d8.png)  
 
 Now open 👉 http://localhost:8080
  in your browser.
 You should see the Hello World page 🎉.
+
+![](./azurelab/d6.png)  
+
  **Note:**  This is opened as localy using your system not n azure now we will push this image to ACR.
 
  ### 9. Push Image to ACR
