@@ -126,6 +126,8 @@ You should see the Hello World page 🎉
    ```powershell
    az acr login --name myacr1234
    ```
+    ![](./azurelab/acrlogin.png) 
+
    Enter the **Username** and **Password** from the ACR **Access Keys** (enabled earlier).
 
    ![](./azurelab/akey.png)  
