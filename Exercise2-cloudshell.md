@@ -76,6 +76,30 @@ docker run -d -p 8080:80 myapache:v1
 Now open 👉 http://localhost:8080
  in your browser.
 You should see the Hello World page 🎉.
+ **Note:**  This is opened as localy using your system not n azure now we will push this image to ACR.
 
+ ### 9. Push Image to ACR
 
+ Login to your ACR:
+
+ ```powershell
+ az acr login --name myacr1234
+ ```
+Enter the Username and Password from the ACR Access Keys section (enabled earlier).
+
+Tag the image for ACR:
+
+```powershell
+docker tag myapache:v1 myacr1234.azurecr.io/myapache:v1
+```
+
+Push the image:
+
+```powershell
+docker push myacr1234.azurecr.io/myapache:v1
+```
+
+✅ Your Docker image is now built locally and stored in Azure Container Registry.
+
+ 
 
