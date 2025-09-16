@@ -6,7 +6,7 @@ Follow the steps below to log in to your Azure account:
 
 1. Open the **Azure Portal** using the desktop shortcut on your VM.
    
-   ![](./azurelab/gs1.png)
+   ![](./azurelabs.5.png)
 
 3. Click **Start without syncing your data**.
      
