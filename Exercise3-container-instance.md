@@ -28,7 +28,7 @@
    ![](./azurelab/moni1.png)
    
 5. Click **Review + Create** → **Create**.  
-   ![](./azurelab/moni.png)  
+   ![](./azurelab/moni2.png)  
 
 6. Wait for the deployment to complete.  
    ![](./azurelab/ci6.png)  
