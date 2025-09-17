@@ -20,12 +20,17 @@
 3. Networking:  
    - **DNS Name Label**: `myapachecontainer` (must be unique).  
    - **Port**: 80  
-   ![](./azurelab/ci4.png)  
+   ![](./azurelab/moni.png)  
 
-4. Click **Review + Create** → **Create**.  
-   ![](./azurelab/ci5.png)  
+4. Monitoring:
+   In the Monitoring tab (do not enable diagnostics).
+   uncheck the box
+   ![](./azurelab/moni1.png)
+   
+5. Click **Review + Create** → **Create**.  
+   ![](./azurelab/moni.png)  
 
-5. Wait for the deployment to complete.  
+6. Wait for the deployment to complete.  
    ![](./azurelab/ci6.png)  
 
 ✅ Now your deployment is complete. Click **Go to resource** to view your container instance, which should now be running and accessible.
