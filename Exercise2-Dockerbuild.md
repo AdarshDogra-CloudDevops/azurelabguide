@@ -49,12 +49,17 @@ Docker version 28.4.0, build d8eb465
 ### 3. Create a Project Directory
 ```powershell
 mkdir C:\DockerProjects\apache-demo
+```
+
+**Change the directory**
+```powershell
 cd C:\DockerProjects\apache-demo
 ```
 
 ---
 
 ### 4. Create a Dockerfile
+
 ```powershell
 @"
 FROM httpd:2.4
@@ -65,6 +70,7 @@ COPY ./index.html /usr/local/apache2/htdocs/index.html
 ---
 
 ### 5. Create an index.html
+
 ```powershell
 @"
 <html>
@@ -90,11 +96,13 @@ Expected files:
 ---
 
 ### 7. Build the Docker Image
+
 ```powershell
 docker build -t myapache:v1 .
 ```
 
 Verify the image exists:  
+
 ```powershell
 docker images
 ```
@@ -103,6 +111,7 @@ docker images
 
 ### 8. Run & Test Locally
 Run the container:
+
 ```powershell
 docker run -d -p 8080:80 myapache:v1
 ```
@@ -111,7 +120,7 @@ You should see the running container inside Docker Desktop:
 
 ![](./azurelab/d8.png)  
 
-Now open 👉 **http://localhost:8080** in your browser.  
+Now open 👉 **<http://localhost:8080>** in your browser.  
 
 You should see the Hello World page 🎉  
 
