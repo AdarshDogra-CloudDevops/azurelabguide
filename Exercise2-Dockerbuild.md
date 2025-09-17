@@ -21,7 +21,8 @@ In this exercise, you will build a Docker image locally using **Docker Desktop**
   
   ![](./azurelab/d3.png)
   
-- If a **WSL prompt** appears, simply close it.  
+- If a **WSL prompt** appears, simply close it.
+  
 - Once Docker is running, you should see the whale 🐳 icon in the system tray and the Docker Desktop app:
   
   ![](./azurelab/d4.png)  
@@ -47,11 +48,13 @@ Docker version 28.4.0, build d8eb465
 ---
 
 ### 3. Create a Project Directory
+
 ```powershell
 mkdir C:\DockerProjects\apache-demo
 ```
 
 **Change the directory**
+
 ```powershell
 cd C:\DockerProjects\apache-demo
 ```
@@ -135,7 +138,7 @@ You should see the Hello World page 🎉
 ### 9. Push the Image to ACR
 1. **Login to ACR**:
    ```powershell
-   az acr login --name myacr1234
+   az acr login --name myacr<DID>
    ```
     ![](./azurelab/acrlogin.png) 
 
@@ -143,14 +146,16 @@ You should see the Hello World page 🎉
 
    ![](./azurelab/akey.png)  
 
-3. **Tag the image for ACR**:
+2. **Tag the image for ACR**:
+   
    ```powershell
-   docker tag myapache:v1 myacr1234.azurecr.io/myapache:v1
+   docker tag myapache:v1 myacr<DID>.azurecr.io/myapache:v1
    ```
 
-4. **Push the image to ACR**:
+3. **Push the image to ACR**:
+   
    ```powershell
-   docker push myacr1234.azurecr.io/myapache:v1
+   docker push myacr<DID>.azurecr.io/myapache:v1
    ```
 
 ✅ Your Docker image is now built locally and successfully pushed to **Azure Container Registry (ACR)**.  
