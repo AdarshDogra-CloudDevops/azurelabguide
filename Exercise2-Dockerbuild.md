@@ -120,7 +120,7 @@ You should see the running container inside Docker Desktop:
 
 ![](./azurelab/d8.png)  
 
-Now open 👉 **<http://localhost:8080>** in your browser.  
+Now open 👉 **<http://localhost:8080>** in your Edge browser.  
 
 You should see the Hello World page 🎉  
 
