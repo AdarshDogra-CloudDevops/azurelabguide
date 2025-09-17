@@ -13,7 +13,7 @@
    ![](./azurelab/ci2.png)  
 
    - **Image Source**: Azure Container Registry  
-   - **Registry**: Select `myacr1234`  
+   - **Registry**: Select `myacr<DID>`  
    - **Image**: `myapache:v1`  
    - **OS Type**: Linux  
    - **Size**: Leave default (1 vCPU, 1.5GB RAM)
