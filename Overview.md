@@ -2,10 +2,10 @@
 
 **Lab Duration:** 1 Hour  
 
-``
+
 ## NOTE!!
-**Deploy all your resources into a resource group that ends with "01"**
-``
+**_Deploy all your resources into a resource group that ends with "01"_**
+
 
 ## Overview
 Azure Container Instances (ACI) is a service provided by Microsoft Azure that allows users to quickly run containers directly on the Azure cloud without having to manage virtual machines or additional services like container orchestrators. It is a solution aimed at simplifying container operations by providing a serverless computing environment where you only pay for the compute resources that the container uses while it is running.
